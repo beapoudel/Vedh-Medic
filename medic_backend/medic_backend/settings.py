@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-@9k*)@^tbw=y5#ur41$g+)iiv&-3@_t=cht(3!v(*5q^u1r8lm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vedh-medic-backend.onrender.com']
 
 
 # Application definition
