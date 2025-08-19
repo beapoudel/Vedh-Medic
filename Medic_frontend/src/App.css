@@ -1,0 +1,339 @@
+@media screen and (max-width: 720px){
+h1{
+  margin-top: 0%;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 28px;
+}
+h3{
+  margin-top:0%;
+  text-align: center;
+  color: rgb(116, 116, 116);
+  box-shadow: 0px 1px 0px rgb(191, 188, 188);
+}
+h4{
+  gap: 30%;
+}
+h5{
+  margin-top: 0%;
+  color: gray;
+}
+.h1_img{
+  width: 6vh;
+}
+.contain{
+  margin-left: 0%;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+  gap: 50%;
+  
+}
+.foot_img{
+  margin-top: 5dvh;
+  width: 5vh;
+  height: 5vh;
+}
+.chat{
+  margin-left: 2%;
+  margin-top: 10%;
+  width: 47dvh;
+  height:70dvh;
+}
+.report{
+  margin-top: 10%;
+  margin-left: 2%;
+  width: 47dvh;
+  height:70dvh;
+  box-shadow: 0px 1px 0px rgb(191, 188, 188);
+}
+#upload{
+  display: none;
+}
+.browse{
+  background-color: rgb(20, 161, 196);
+  color: white;
+  width: 50%;
+  height: 10%;
+  border: none;
+  border-radius: 10px;
+  font-size: large;
+}
+.upload{
+  display: grid;
+  place-items:center;
+  border-radius: 10px;
+  margin-left:2%;
+  border:5px dotted #c0b7b7;
+  width: 48dvh;
+  height: 49dvh;
+}
+.result{
+  border-radius: 10px;
+  margin-left:2%;
+  border:5px solid #c0b7b7;
+  color: black;
+  font-size: small;
+  overflow-y: scroll;
+  width: 48dvh;
+  height: 49dvh;
+}
+.active{
+  display: grid;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(20, 161, 196);
+  width: 40px;
+  height: 10px;
+}
+.chat_head{
+  box-shadow: 0px 1px 0px rgb(191, 188, 188);
+  width: 100%;
+}
+.inbox{
+height: 81%;
+}
+.sending{
+  display: flex;
+  gap: 10px;
+  position: fixed;
+}
+.send{
+  width: 40px;
+}
+.type{
+  height: 35px;
+  width: 300px;
+  background-color: rgb(216, 216, 216);
+  color: gray;
+  border: none;
+  border-radius: 10px;
+}
+.login{
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 80%;
+  border-radius: 15px;
+  height: fit-content;
+  box-shadow: 0px 1px 1px black;
+}
+.loginput{
+  width: 70%;
+  height: 30px;
+  font-size: larger;
+  border-radius: 10px;
+  margin-left: 11%;
+  margin-top: 8%;
+}
+.Loginbutton{
+  margin-left: 13%;
+  margin-top: 5%;
+  background-color: rgb(20, 161, 196);
+  color: white;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: x-large;
+  width: 70%;
+}
+.question{
+  align-self:flex-end;
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(10, 71, 92);
+  max-width: 60%;
+  font-size: x-large;
+  background-color: lightblue;
+}
+.answer{
+  align-self: flex-start;
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(6, 54, 6);
+  font-size: x-large;
+  background-color: lightgreen;
+
+}
+.inbox{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-y: scroll;
+}
+}
+
+
+@media screen and (min-width:730px){
+h1{
+  margin-top: 0%;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 28px;
+}
+h3{
+  margin-top:0%;
+  text-align: center;
+  color: rgb(116, 116, 116);
+  box-shadow: 0px 1px 0px rgb(191, 188, 188);
+}
+h4{
+  gap:60%;
+  font-size: xx-large;
+}
+h5{
+  margin-top: 0%;
+  color: gray;
+  font-size: larger;
+}
+.h1_img{
+  width: 6vh;
+}
+.contain{
+  margin-left: 0%;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+  gap: 50%;
+  
+}
+.foot_img{
+  margin-top: 2dvh;
+  width: 5vh;
+  height: 5vh;
+}
+.chat{
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 97%;
+  height:75dvh;
+}
+.report{
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 97%;
+  height:75dvh;
+  box-shadow: 0px 1px 0px rgb(191, 188, 188);
+}
+#upload{
+  display: none;
+}
+.browse{
+  background-color: rgb(20, 161, 196);
+  color: white;
+  width: 50%;
+  height: 10%;
+  border: none;
+  border-radius: 10px;
+  font-size: large;
+}
+.upload{
+  display: grid;
+  place-items:center;
+  border-radius: 10px;
+  margin-left:2%;
+  border:5px dotted #c0b7b7;
+  width: 90%;
+  height: 55dvh;
+}
+.result{
+  border-radius: 10px;
+  margin-left:2%;
+  border:5px solid #c0b7b7;
+  color: black;
+  font-size: large;
+  overflow-y: scroll;
+  width: 90%;
+  height: 55dvh;
+}
+.active{
+  display: grid;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(20, 161, 196);
+  width: 40px;
+  height: 10px;
+}
+.chat_head{
+  box-shadow: 0px 1px 0px rgb(191, 188, 188);
+  width: 100%;
+  font-size: xx-large;
+}
+.inbox{
+height: 81%;
+}
+.sending{
+  display: flex;
+  gap: 10px;
+  position: fixed;
+}
+.send{
+  width: 40px;
+}
+.type{
+  margin-left: 50%;
+  height: 35px;
+  width: 1200px;
+  background-color: rgb(216, 216, 216);
+  color: black;
+  border: none;
+  border-radius: 10px;
+}
+.login{
+  margin-left: 39%;
+  margin-top: 5%;
+  width: 20%;
+  border-radius: 15px;
+  height: fit-content;
+  box-shadow: 0px 1px 1px black;
+  position: fixed;
+}
+.loginput{
+  width: 70%;
+  height: 30px;
+  font-size: larger;
+  border-radius: 10px;
+  margin-left: 11%;
+  margin-top: 8%;
+}
+.Loginbutton{
+  margin-left: 13%;
+  margin-top: 5%;
+  background-color: rgb(20, 161, 196);;
+  color: white;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: x-large;
+  width: 70%;
+}
+.loading_img{
+  margin-top: 7%;
+  margin-left: 43%;
+}
+.question{
+  align-self:flex-end;
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(10, 71, 92);
+  max-width: 60%;
+  font-size: x-large;
+  background-color: lightblue;
+}
+.answer{
+  align-self: flex-start;
+  max-width: 60%;
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(6, 54, 6);
+  font-size: x-large;
+  background-color: lightgreen;
+
+}
+.inbox{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-y: auto;
+}
+}
