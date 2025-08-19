@@ -1,0 +1,9 @@
+django
+djangorestframework
+langchain
+langchain-core
+langchain-google-genai
+langchain-pinecone
+pinecone-client
+python-dotenv
+drf-authtoken
