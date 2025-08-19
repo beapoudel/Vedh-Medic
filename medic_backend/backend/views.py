@@ -28,7 +28,6 @@ vector_store = PineconeVectorStore.from_existing_index(
     index_name=index_name,
     embedding=embedding
 )
-API=os.environ["GOOGLE_API_KEY"]="AIzaSyBiXp3SS_38UFKiG3oZbA30ET0P52y0ndc"
 llm=ChatGoogleGenerativeAI(
     model="gemini-2.5-pro",
     api_key=API
