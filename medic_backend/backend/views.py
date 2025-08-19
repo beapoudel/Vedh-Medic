@@ -20,8 +20,8 @@ from rest_framework.authentication import TokenAuthentication
 import re
 from dotenv import load_dotenv
 load_dotenv()
-API=os.environ.get("GOOGLE_API_KEY")
-os.environ.get("PINECONE_API_KEY")
+API=os.getenv("GOOGLE_API_KEY")
+os.getenv("PINECONE_API_KEY")
 embedding = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 index_name = "testing"
 vector_store = PineconeVectorStore.from_existing_index(
