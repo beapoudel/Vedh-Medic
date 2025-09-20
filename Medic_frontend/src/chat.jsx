@@ -16,7 +16,7 @@ function Chat({ username }) {
         const token = localStorage.getItem("authtoken")
         console.log(token)
         try {
-            const url = "http://127.0.0.1:8000/query/"
+            const url = "https://vedh-medic.onrender.com/query/"
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
