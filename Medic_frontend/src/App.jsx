@@ -17,7 +17,7 @@ function App() {
  async function login(){
   setpending(true)
   try{
-    const url="http://127.0.0.1:8000/login/"
+    const url="https://vedh-medic.onrender.com/login/"
     let response= await fetch(url,{
       method:'POST',
       headers: {
