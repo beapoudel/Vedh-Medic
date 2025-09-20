@@ -12,7 +12,7 @@ function Report({ username }) {
     const token = localStorage.getItem("authtoken")
     try {
       setupload(true)
-      const url = "http://127.0.0.1:8000/image/"
+      const url = "https://vedh-medic.onrender.com/image/"
       const response = await fetch(url, {
         method: 'POST',
         headers: {
