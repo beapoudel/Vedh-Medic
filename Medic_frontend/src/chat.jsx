@@ -16,7 +16,7 @@ function Chat({ username }) {
         const token = localStorage.getItem("authtoken")
         console.log(token)
         try {
-            const url = "https://vedh-medic.onrender.com/query/"
+            const url = "https://vedh-medic-backend.onrender.com/query/"
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
