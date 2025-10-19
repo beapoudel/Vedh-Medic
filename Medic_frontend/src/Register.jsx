@@ -10,7 +10,7 @@ function Register(){
     async function regis(){
       setpending(true)
   try{
-    const url="https://vedh-medic.onrender.com/register/"
+    const url="https://vedh-medic-backend.onrender.com/register/"
     let response= await fetch(url,{
       method:'POST',
       headers: {
